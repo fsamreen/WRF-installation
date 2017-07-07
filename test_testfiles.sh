@@ -1,4 +1,5 @@
 #!/bin/bash
+# put at end of installation-test code
 cd ~/TESTS
 wget http://www2.mmm.ucar.edu/wrf/OnLineTutorial/compile_tutorial/tar_files/Fortran_C_tests.tar
 tar -xf Fortran_C_tests.tar
