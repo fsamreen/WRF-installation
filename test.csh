@@ -1,4 +1,4 @@
-#!/bin/csh
+#!/bin/csh -f
 setenv DIR ~/Build_WRF/LIBRARIES
 setenv CC gcc
 setenv CXX g++
