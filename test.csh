@@ -1,5 +1,5 @@
 #!/bin/csh -f
-cd ~Build_WRF/LIBRARIES
+cd ~/Build_WRF/LIBRARIES
 setenv DIR ~/Build_WRF/LIBRARIES
 setenv CC gcc
 setenv CXX g++
