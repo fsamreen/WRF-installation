@@ -1,6 +1,6 @@
 #!/bin/bash
 apt-get install csh -y
-apt-get install perl
+apt-get install perl -y
 cd ~/TESTS
 #Test #5:csh In the command line, type:
 ./TEST_csh.csh
