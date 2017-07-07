@@ -8,6 +8,7 @@ which gcc
 which cpp
 gcc --version
 gfortran --version
+cd ..
 mkdir Build_WRF
 mkdir TESTS
 cd Build_WRF
