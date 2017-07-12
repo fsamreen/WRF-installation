@@ -1,9 +1,6 @@
 #!/bin/csh -f
-cd ~/Build_WRF/LIBRARIES
-setenv LDFLAGS -L$DIR/grib2/lib 
-setenv CPPFLAGS -I$DIR/grib2/include 
-tar xzvf zlib-1.2.7.tar.gz     #or just .tar if no .gz present
-cd zlib-1.2.7
+tar xzvf libpng-1.2.50.tar.gz     #or just .tar if no .gz present
+cd libpng-1.2.50
 ./configure --prefix=$DIR/grib2
 make
 make install
