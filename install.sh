@@ -2,7 +2,7 @@
 apt-get update
 apt-get install gfortran -y
 apt-get install gcc -y
-apt get install g++ -y
+apt-get install g++ -y
 which fortran
 which gcc
 which cpp
